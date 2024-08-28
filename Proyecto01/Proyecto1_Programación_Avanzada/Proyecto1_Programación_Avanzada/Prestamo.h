@@ -13,4 +13,10 @@ public:
 	}
 	virtual double CalculoInteres();
 	virtual void VerDatosPrestamo();
+	void setMonto(double monto);
+	void setTazaI(double tazai);
+	void setPlazo(int plazo);
+	double getMonto();
+	double getTazaI();
+	int getPlazo();
 };
