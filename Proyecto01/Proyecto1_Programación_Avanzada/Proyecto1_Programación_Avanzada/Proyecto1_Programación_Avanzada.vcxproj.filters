@@ -18,9 +18,6 @@
     <ClCompile Include="Proyecto1_Programación_Avanzada.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Banco.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="Prestamo.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
@@ -33,11 +30,11 @@
     <ClCompile Include="Automoviles.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Banco.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Banco.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="Prestamo.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
@@ -48,6 +45,9 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="Automoviles.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Banco.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

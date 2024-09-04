@@ -20,3 +20,4 @@ public:
 	double getTazaI();
 	int getPlazo();
 };
+

@@ -4,7 +4,8 @@
 using namespace std;
 
 double Prestamo::CalculoInteres() {
-	cout << "Calculo de interes segÃºn tipo de prestamo" << endl;
+	cout << "Calculo de interes según tipo de prestamo" << endl;
+	return 0;
 }
 void Prestamo::VerDatosPrestamo() {
 	cout << "El monto actual del prestamo es de: " << Prestamo::Monto << endl;

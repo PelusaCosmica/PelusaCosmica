@@ -1,7 +1,6 @@
 #pragma once
 #include "Prestamo.h"
-class Hipotecario :
-    public Prestamo
+class Hipotecario : public Prestamo
 {
 
 private:
@@ -11,15 +10,10 @@ private:
     double CapitalPendiente = 0.04;
 
 public:
-    double Monto;
-    double TasaInteres;
-    int Plazo;
-
-
-    Hipotecario(double monto, double tasai, int plazo, double euribor, double diferencial, double capitalpendiente) : Prestamo(monto, tasai, plazo) {
+    Hipotecario(double monto, double tasai, int plazo, float euribor, double diferencial, double capitalpendiente) : Prestamo(monto, tasai, plazo) {
 
         Monto = monto;
-        TasaInteres = tasai;
+        TazaI = tasai;
         Plazo = plazo;
         Euribor = euribor;
         Diferencial = diferencial;
@@ -33,4 +27,3 @@ public:
 
 
 };
-
